@@ -1,0 +1,182 @@
+body {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;    
+}
+
+.barra {
+    background-color: white;
+    height: 100%;
+    text-decoration: none;
+    position: fixed;
+    margin-top: -8px;
+    margin-left: -8px;
+    color:black;
+    width: 242px;
+}
+
+.barra ul {
+    list-style-type: none;
+}  
+
+.barra p{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 10px;    
+    font-size: 15px;
+}
+
+.barra img {
+    margin-left: -18px;
+}
+
+#linha-vertical {
+    border-left: 0.3mm solid #e4e4e4;
+    margin-top: -7px;
+    height:100%;
+    left: 16%;
+    position: absolute;
+}
+
+#cor {
+color:#fff;
+text-decoration: none;
+}
+
+.container {
+padding:0 !important;
+}
+
+.logo-lat {
+    margin-top: -80px;
+    margin-bottom: 15px; 
+}
+
+.create {
+    margin-left: -10px;
+}
+
+#main {
+    margin-left: 180px;
+}
+
+#perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 110px;
+    margin-top: 28px;
+    margin-right: 55px;
+}
+
+#segui {
+    width: 10px;
+    height: 10px;
+}    
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+#ok {
+    width: 20px;
+    height: 15px;
+}    
+
+#menu-pontinho {
+    width: 20px;
+    height: 20px;
+} 
+
+.principal-itens {
+    display: flex;
+    align-items: center;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal-itens button {
+    border: none;
+    height: 40px;
+    border-radius: 15%;
+}
+
+.principal-itens ul {
+    list-style-type: none;
+    
+}
+
+#info li {
+    display: inline-block;
+} 
+
+#destaque{
+    display: flex; 
+     justify-content: left;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+
+#destaque img {
+    width: 80px;
+    height: 80px;    
+    border-radius: 50%; 
+    padding: 0px 50px;
+}
+
+#destaque p {
+    display: block;
+    padding: 0px 50px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+#linha {
+    margin-top: -9px;
+    margin-left: 30%;
+}
+
+
+#nav-tabs button {
+     border: none; 
+    background: none;
+    font-size: 11px;
+} 
+
+#nav1 {
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+#nav2 {
+    margin-left: 3%;
+    opacity: 50%;
+}
+
+#nav3 {
+    margin-left: 3%;
+    opacity: 50%;
+}
+
+#nav1 img {
+    width: 12px;
+    height: 12px;
+}
+
+#nav2 img {
+    width: 11px;
+    height: 11px;
+}
+
+#nav3 img {
+    width: 15px;
+    height: 15px;
+}
+
+figure img {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
